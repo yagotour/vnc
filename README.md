@@ -3,15 +3,11 @@ Install VNC Ubuntu 20.04
 
 
 * sudo apt update
-
 * sudo apt install lightdm
-
 * sudo apt install x11vnc
-
 * x11vnc
-
-
 * sudo nano /lib/systemd/system/x11vnc.service
+
 ```
 [Unit]
 Description=x11vnc service
@@ -30,6 +26,5 @@ WantedBy=multi-user.target
 * systemctl daemon-reload
 * systemctl enable x11vnc.service
 * systemctl start x11vnc.service
-
 
 _Privacidad – Bloqueo de pantalla - Deshabilitar_
