@@ -1,9 +1,9 @@
 # Vnc
 Install VNC Ubuntu 20.04
 
-```
-_sudo apt update_
 
+* sudo apt update
+```
 sudo apt install lightdm
 
 sudo apt install x11vnc
